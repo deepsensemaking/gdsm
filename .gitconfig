@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	name = deepsensemaking
+	email = deepsensemaking@gmail.com
+[remote "github"]
+	url = git@deepsensemaking.github.com:deepsensemaking/gdsm.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[branch "master"]
+	pushRemote = github
+	remote = github
+	merge = refs/heads/master
